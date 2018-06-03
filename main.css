@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* CSS For Toolbar */
+.toolbar {
+  text-align: center;
+  margin: 16px 0px;
+}
+.btn-group {
+  display: inline-block;
+  margin: 8px 4px;
+}
+.btn-group:first-child > .btn:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.btn-group:last-child > .btn:last-child {
+  border-radius: 0 8px 8px 0;
+}
+.btn {
+  background-color:#4285f4;
+  cursor: pointer;
+  border: 2px solid #4285f4;
+  outline: none;
+  padding: 8px;
+  color: #fff;
+  transition: all linear 0.15s;
+}
+.btn:hover {
+  background-color: #1668ec;
+  border-color: #1668ec;
+  transition: all linear 0.15s;
+}
+.btn:disabled {
+  background-color: #99bcf5;
+  border-color: #99bcf5;
+  cursor: not-allowed;
+  transition: all linear 0.15s;
+}
+
+.toolbar-text {
+  padding: 8px 4px;
+  display: inline-block;
+}
+
+.toolbar-input {
+  padding: 8px;
+  margin: 0px 4px;
+}
+
+/* Data Table */
+.data-list {
+  margin: 16px;
+}
+.data-table {
+  border-collapse: collapse;
+}
